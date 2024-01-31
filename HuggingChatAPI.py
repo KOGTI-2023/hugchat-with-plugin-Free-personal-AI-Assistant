@@ -38,7 +38,7 @@ class HuggingChat(LLM):
     stop: Optional[list] = ["</s>"]
     return_full_text: Optional[bool] = False
     stream_resp: Optional[bool] = True
-    use_cache: Optional[bool] = False
+    use_cache: Optional[bool] = True
     is_retry: Optional[bool] = False
     retry_count: Optional[int] = 5
 
